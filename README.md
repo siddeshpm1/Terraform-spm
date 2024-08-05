@@ -1,4 +1,4 @@
-# Terraform Zero to Hero course
+# Terraform course
 
 ## Day 1: Getting Started with Terraform
 
