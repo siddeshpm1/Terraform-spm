@@ -36,5 +36,5 @@ pipeline:
                       pwd
                       ls
                       cd Day-1/PROJECT-ec2-instance-creation
-                      pwd
-                      ls
+                      terraform init
+                      terraform plan
