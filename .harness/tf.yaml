@@ -1,0 +1,38 @@
+pipeline:
+  name: tf
+  identifier: tf
+  projectIdentifier: default_project
+  orgIdentifier: default
+  tags: {}
+  properties:
+    ci:
+      codebase:
+        connectorRef: Siddesh
+        repoName: https://github.com/siddeshpm1/Terraform-spm.git
+        build: <+input>
+  stages:
+    - stage:
+        name: plan
+        identifier: plan
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: true
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Run_1
+                  identifier: Run_1
+                  spec:
+                    shell: Sh
+                    command: |-
+                      pwd
+
+                      cd Day-1/PROJECT-ec2-instance-creation
