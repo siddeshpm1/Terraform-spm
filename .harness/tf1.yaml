@@ -38,4 +38,4 @@ pipeline:
                       cd Day-1/PROJECT-ec2-instance-creation
                       terraform init
                       terraform plan
-                      terraform apply
+                      terraform apply -auto-approve
