@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-1"  # Set your desired AWS region
-    access_key = "AKIA2UC3BCCG7E4I3XV6"     
-    secret_key = "xYJNJkN1jK8qHgLuN12Jt0hQ1jnzvbfLzHDrGWGl"
+    access_key = "AKIA2UC3BCCG4JIJFDW6"     
+    secret_key = "kXHVwJraYHowy0I01s4SpsVJ5pPj6d9OOcvyNOQV"
 }
 
 resource "aws_instance" "example" {
